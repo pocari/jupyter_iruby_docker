@@ -2,10 +2,14 @@
 
 This is iruby docker container based on [base-notebook](https://github.com/jupyter/docker-stacks/tree/master/base-notebook)
 
-# build
+# build or download image
 
 ```
 docker-compose build
+
+# or
+
+dokcer pull pocari/jupyter_iruby_docker
 ```
 
 # run jupyter notebook
