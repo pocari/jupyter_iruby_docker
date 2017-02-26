@@ -3,6 +3,7 @@ version: '2'
 services:
   jupyter:
     build: .
+    image: pocari/jupyter_iruby_docker
     ports:
       - "8888:8888"
     volumes:
